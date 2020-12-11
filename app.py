@@ -52,7 +52,7 @@ englishquestions = [
     },
     {
         "id": "4",
-        "question": "Como se dice 'pan' en Ingles",
+        "question": "Como se dice 'pan' en Ingles?",
         "answers": ["a) Milk", "b) Bread", "c) Breakfast"],
         "correct": "b) Bread"
     },
