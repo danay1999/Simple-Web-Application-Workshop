@@ -34,22 +34,28 @@ spanishquestions = [
 englishquestions = [
     {
         "id": "1",
-        "question": "What is the Capital of Syria?",
-        "answers": ["a) Beirut", "b) Damascus", "c) Baghdad"],
-        "correct": "b) Damascus"
+        "question": "Como se dice 'Buenos Dias' en Ingles?",
+        "answers": ["a) Good Morning", "b) Good Afternoon", "c) Good Nigth"],
+        "correct": "a) Good Morning"
     },
     {
         "id": "2",
-        "question": "What is the square root of Pi?",
-        "answers": ["a) 1.7724", "b) 1.6487", "c) 1.7872"],
-        "correct": "a) 1.7724"
+        "question": "Como se dice 'Buenas Noches' en Ingles?",
+        "answers": ["a) Good Morning", "b) Good Afternoon", "c) Good Nigth"],
+        "correct": "c) Good Nigth"
     },
     {
         "id": "3",
-        "question": "How many counties are there in England?",
-        "answers": ["a) 52", "b) 48", "c) 45"],
-        "correct": "b) 48"
-    }
+        "question": "Como se dice 'desayuno' en Ingles?",
+        "answers": ["a) Milk", "b) Bread", "c) Breakfast"],
+        "correct": "c) Breakfast"
+    },
+    {
+        "id": "4",
+        "question": "Como se dice 'pan' en Ingles",
+        "answers": ["a) Milk", "b) Bread", "c) Breakfast"],
+        "correct": "b) Bread"
+    },
 ]
 
 @app.route('/')

@@ -4,8 +4,7 @@
 
   <!-- Basic Page Needs-->
   <meta charset="utf-8">
-  <title>Test Run</title>
-  <meta name="description" content="A web application to manipulate the Henry Books Database">
+  <title>Web Application</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSS -->
@@ -29,8 +28,11 @@
   </header>
 
   <div class="row container ">
-    <div style="text-align:left;" class="twelve columns">
-        
+    <div style="text-align:center;" class="twelve columns">
+    <h5> Welcome to a very Simple Web Application built with Flask </h5>
+    <p> What would you like to do today?</p>
+        <a href="{{ url_for('learnenglish')}}"><img src="{{url_for('static', filename='images/English.png')}}"  style="width: 150px";/></a>
+        <a href="{{ url_for('learnspanish')}}"><img src="{{url_for('static', filename='images/Spanish.png')}}" style="width: 175px";/></a>
     </div>
 
 </div>
