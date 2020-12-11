@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs-->
+  <meta charset="utf-8">
+  <title>Test Run</title>
+  <meta name="description" content="A web application to manipulate the Henry Books Database">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/skeleton.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+ 
+</head>
+
+<style>A {text-decoration: none;} </style> 
+<body >
+  
+  <header  class="main_nav pink">
+    <div class="container">
+        <div class="six columns">
+        <a style="font-size:1.5em"class="toptextwhite"  href="{{ url_for('index') }}">Home</a>
+        </div>  
+        <div class="six columns" style="text-align:left;">
+        <a href="{{ url_for('learnenglish')}}" ><button   class="button-primary">Learn English</button></a>
+        <a href="{{ url_for('learnspanish')}}" ><button  class="button-primary">Learn Spanish</button></a>
+        </div>   
+  </header>
+
+  <div class="row container ">
+    <div style="text-align:left;" class="twelve columns">
+        
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+.main{padding-top: 5%;}
+.row{padding: 2% 0;}
+
+.pink{
+    background-color: #b12e69;
+    color: #b12e69;
+}
+
+.toppadding{
+    padding: 5% 0px 0px 0px;
+}
+.nopadding{
+    padding: 0% 0% 0% 0%;
+}
+
+.bottompadding{
+    padding-bottom: 0%;
+}
+
+
+.center{
+    position: absolute;
+    left: 18%;
+}
+
+
+body{
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+  
+}
+.toptextwhite{
+    color: white;
+}
+    
+.webname{
+    font-size: 1.5em;
+    color: white;
+}
+
+.h6{
+    font-size: 1.3em;
+}
+
+a.text{color: white;
+       font-size: 1.2em;
+    }
+    a.toptext{color: white;
+        font-size: 0.95em;
+     }
+
+.vertical{
+    width: 300px;
+    height: 300px;
+}
+
+.tiny{
+    font-size: .75em;
+}
+
+
+.white{
+    color:white;
+}
+a{
+   color: #007cba;
+}
+.searchresults{
+    float:right;
+}
+
+header.main_nav{
+    padding: 1% 0;
+    display: block;
+
+
+/* Larger than mobile */
+@media (max-width: 479px) {
+    .logo a{font-size: 2em;}
+    .main{padding-top: 15%;}
+    .portfolio img{margin-bottom: 10%;}
+    img.avatar{margin-top: 25%;}
+    h2.bio{font-size: 2.5em}
+    p.bio{font-size: 1.25em;
+          color: black}
+    ul.social li a{font-size: .75em;}
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+
