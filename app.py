@@ -64,26 +64,23 @@ def index():
 
 @app.route('/learnenglish',methods=['POST', 'GET'])
 def learnenglish():
-    if request.method == 'GET':  
-        return render_template('/learnenglish.html',data=englishquestions)
-    else:
-        questionright = 0
-        for question in englishquestions:
-            print()
-            if request.form[question.get('id')] == question.get('correct'):
-                questionright += 1
-        return render_template('englishresults.html', total=len(englishquestions), result=questionright)
+     if request.method == 'GET':
+          return render_template('/learnenglish.html',data=englishquestions)
+     questionright = 0
+     for question in englishquestions:
+         print()
+         if request.form[question.get('id')] == question.get('correct'):
+             questionright += 1
+     return render_template('englishresults.html', total=len(englishquestions), result=questionright)
 
 @app.route('/learnspanish',methods=['POST', 'GET'])
 def learnspanish():  
-    if request.method == 'GET': 
-        return render_template('/learnspanish.html',data=spanishquestions)
-    else:
-        questionright = 0
-        for question in spanishquestions:
-            if request.form[question.get('id')] == question.get('correct'):
-                questionright += 1
-        return render_template('spanishresults.html', total=len(spanishquestions), result=questionright)
+     if request.method == 'GET':
+          return render_template('/learnspanish.html',data=spanishquestions)
+     questionright = sum(
+         1 for question in spanishquestions
+         if request.form[question.get('id')] == question.get('correct'))
+     return render_template('spanishresults.html', total=len(spanishquestions), result=questionright)
 
 if __name__ == "__main__":
     
